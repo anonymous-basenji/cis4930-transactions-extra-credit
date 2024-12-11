@@ -2,7 +2,7 @@
 
 ## Setup
 1. Download the InMemoryDB.py
-2. Install or verify current installation of Python 3 - https://www.python.org/downloads/ 
+2. Install or verify current installation of Python 3 - https://www.python.org/downloads/. 
 You can verify current installation by running `python3 --version`
 3. Run the file with `python3 InMemoryDB.py`
 
