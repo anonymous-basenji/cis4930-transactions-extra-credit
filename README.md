@@ -18,7 +18,7 @@ that is used in the rollback operation. This second element is populated by anyt
 For this assignment to become an "official" assignment in the future, I would suggest adding a requirement that there must also be a 
 transaction history stored in the database. In a real life scenario this would obviously be critical for many reasons, including tax reasons,
 keeping track of an account's balance, and for disputing and reversing already-completed transactions (for example, if someone's card info
-got stolen). Additionally, I would add transaction IDs to these transactions that can be used in a dispute (transactionID) method that 
+got stolen). Additionally, I would add transaction IDs to these transactions that can be used in a dispute(transactionID) method that 
 either temporarily reverses transaction while the dispute is investigated or provides the "victim" a temporary credit.
 
 The instructions in this assignment were somewhat vague, but I saw this as an upside as these vague requirements are likely, in my opinion,
