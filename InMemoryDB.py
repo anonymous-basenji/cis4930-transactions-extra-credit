@@ -51,9 +51,6 @@ class InMemoryDB:
 if __name__ == '__main__':
     inmemoryDB = InMemoryDB()
 
-    inmemoryDB.begin_transaction()
-    inmemoryDB.begin_transaction()
-
     # should return null, because A doesn't exist in the DB yet
     print('should return null, because A doesn\'t exist in the DB yet - inmemoryDB.get(\'A\'): ' + str(inmemoryDB.get('A')))
 
